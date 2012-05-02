@@ -3,7 +3,7 @@ BEGIN {
   $LastFM::Export::AUTHORITY = 'cpan:DOY';
 }
 {
-  $LastFM::Export::VERSION = '0.01';
+  $LastFM::Export::VERSION = '0.02';
 }
 use Moose;
 # ABSTRACT: data exporter for last.fm
@@ -87,7 +87,7 @@ LastFM::Export - data exporter for last.fm
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
