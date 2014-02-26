@@ -3,7 +3,7 @@ BEGIN {
   $LastFM::Export::AUTHORITY = 'cpan:DOY';
 }
 {
-  $LastFM::Export::VERSION = '0.02';
+  $LastFM::Export::VERSION = '0.03';
 }
 use Moose;
 # ABSTRACT: data exporter for last.fm
@@ -79,6 +79,7 @@ no Moose;
 1;
 
 __END__
+
 =pod
 
 =head1 NAME
@@ -87,7 +88,7 @@ LastFM::Export - data exporter for last.fm
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 
@@ -142,9 +143,8 @@ Returns
 
 No known bugs.
 
-Please report any bugs through RT: email
-C<bug-lastfm-export at rt.cpan.org>, or browse to
-L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=LastFM-Export>.
+Please report any bugs to GitHub Issues at
+L<https://github.com/doy/lastfm-export/issues>.
 
 =head1 SEE ALSO
 
@@ -162,34 +162,34 @@ You can also look for information at:
 
 =over 4
 
-=item * AnnoCPAN: Annotated CPAN documentation
+=item * MetaCPAN
 
-L<http://annocpan.org/dist/LastFM-Export>
+L<https://metacpan.org/release/LastFM-Export>
 
-=item * CPAN Ratings
+=item * Github
 
-L<http://cpanratings.perl.org/d/LastFM-Export>
+L<https://github.com/doy/lastfm-export>
 
 =item * RT: CPAN's request tracker
 
 L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=LastFM-Export>
 
-=item * Search CPAN
+=item * CPAN Ratings
 
-L<http://search.cpan.org/dist/LastFM-Export>
+L<http://cpanratings.perl.org/d/LastFM-Export>
 
 =back
 
 =head1 AUTHOR
 
-Jesse Luehrs <doy at tozt dot net>
+Jesse Luehrs <doy@tozt.net>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2012 by Jesse Luehrs.
+This software is Copyright (c) 2014 by Jesse Luehrs.
 
-This is free software; you can redistribute it and/or modify it under
-the same terms as the Perl 5 programming language system itself.
+This is free software, licensed under:
+
+  The MIT (X11) License
 
 =cut
-
